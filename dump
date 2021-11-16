@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <title>Welcome</title>
+
+
+</head>
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+
+  <header class="fixed-top">
+    <!-- Navbars -->
+    <nav class="navbar navbar-light navbar-expand-lg bg-dark navbar-dark">
+
+      <div class="container">
+
+        <a href="#" class="navbar-brand">Welcome</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ol class="navbar-nav ms-auto">
+
+            <li class="nav-item">
+              <a href="#Home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#About me" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Resume" class="nav-link">Resume</a>
+            </li>
+
+          </ol>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+
+  </header>
+
+  <div class="container-fluid well" id="home" style="display:block; padding-top:70px;">
+
+    <main class="text-light text-center">
+
+      <center>
+
+        fruity booty boo boo ga
+
+      </center>
+
+    </main>
+
+
+
+
+    <footer class="bg-dark fixed-bottom border-light">
+
+      <address>
+        Email: dumaslamarr@gmail.com <br>
+        Github: <a href="https://github.com/Ldumas-byte" class="text-light">Ldumas-byte</a> <br>
+        <a href="https://www.linkedin.com/in/lamarr-dumas-a668a1125/" class="text-light">Linkedin</a>
+        <a href="https://my.indeed.com/p/lamarrd-c3aut44" class="text-light">Indeed</a>
+      </address>
+
+    </footer>
+
+    <script>
+
+      var toggleMenu = document.getElementById('toggleMenu');
+      var nav = document.querySelector('nav');
+      toggleMenu.addEventListener(
+        'click',
+        function () {
+          if (nav.style.display == 'block') {
+            nav.style.display = 'none';
+          } else {
+            nav.style.display = 'block';
+          }
+        }
+      );
+    </script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>
